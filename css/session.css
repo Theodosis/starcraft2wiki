@@ -1,0 +1,27 @@
+.session_view form{
+    width: 355px;
+    padding: 20px;
+    margin: auto;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 0 4px rgba(255,255,255,0.5);
+
+}
+.session_view form.login{
+    display: none;
+    width: 175px;
+}
+
+.session_view form div{
+    margin: 10px 0;
+}
+.session_view form div input.text{
+    background: rgba(0,0,0,0.8);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-size: 14px;
+    color: white;
+}
+.session_view form input.button{
+    float: right;
+}

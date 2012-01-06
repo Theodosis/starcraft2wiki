@@ -1,0 +1,44 @@
+#header ul.menu{
+    padding: 20px;
+    list-style: none;
+    width: 200px;
+    font-family: starcraft;
+}
+#header ul.menu.left{
+    float: left;
+    text-align: right;
+}
+#header ul.menu.right{
+    float: right;
+}
+
+#header ul.menu li a, #header ul.menu li form input{
+    line-height: 35px;
+    font-size: 20px;
+    color: silver;
+    letter-spacing: 5px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-family: starcraft;
+    cursor: pointer;
+}
+#header ul.menu li form input:hover{
+    text-shadow: 0 0 0.6em rgba(200,200,200,0.8);
+}
+#content{
+    clear: both;
+    padding: 30px;
+}
+#footer{
+    color: #ddd;
+    clear: both;
+    padding: 20px;
+    font-size: 0.7em;
+    text-align: center;
+}
+#footer a{
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+}

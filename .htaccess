@@ -1,0 +1,18 @@
+RewriteEngine On
+
+RewriteRule ^login$                 index.php?controller=session&method=create
+RewriteRule ^logout$                index.php?controller=session&method=delete
+RewriteRule ^register$              index.php?controller=user&method=create
+
+RewriteRule ^admin$                 index.php?controller=admin&method=view
+
+RewriteRule ^buildings$             index.php?controller=building&method=listing
+RewriteRule ^units$                 index.php?controller=unit&method=listing
+RewriteRule ^heros$                 index.php?controller=hero&method=listing
+RewriteRule ^worlds$                index.php?controller=world&method=listing
+
+
+RewriteRule ^race/([a-z]*)$         index.php?controller=race&method=view&race=$1
+RewriteRule ^([a-z]*)/([0-9]*)$     index.php?controller=$1&method=view&id=$2
+
+

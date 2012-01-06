@@ -1,0 +1,48 @@
+.panel{
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid white;
+    width: 230px;
+    opacity: 0.7;
+}
+.panel:hover{
+    opacity: 1;
+}
+.panel h3{
+    line-height: 25px;
+    background: #880;
+    margin: 0;
+    padding: 4px 10px;
+    border-radius: 3px 3px 0 0;
+}
+.panel .body h4{
+    margin: 0;
+    background: #027;
+    padding: 2px 10px;
+}
+.panel .body li{
+    clear: both;
+}
+.panel .body ul ul{
+    padding: 10px 10px 20px;
+}
+.panel .body ul ul li{
+    border-bottom: 1px solid transparent;
+    cursor: default;
+}
+.panel .body ul ul li:hover{
+    border-bottom: 1px dashed #ccc;
+}
+.panel .body ul ul li span{
+    float: left;
+    width: 90px;
+    padding-left: 20px;
+}
+.panel .body ul li span:after{
+    content: ":";
+}
+.panel .body ul ul li strong{
+    display: block;
+    margin-left: 110px;
+    width: 100px;
+}

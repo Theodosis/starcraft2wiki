@@ -1,0 +1,31 @@
+.admin_view form select.select{
+    margin: 20px;
+    width: 196px;
+    padding: 2px;
+}
+.admin_view form .item{
+    display: none;
+}
+.admin_view form div{
+    margin: 20px 10px;
+    clear: both;
+}
+
+.admin_view form .block.inline{
+    float: left;
+    clear: none;
+    width: 200px;
+}
+.admin_view form .block input{
+    width: 180px;
+    padding: 4px 9px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: block;
+}
+.admin_view form label{
+    display: block;
+}
+.admin_view form div select{
+    width: 200px;
+}

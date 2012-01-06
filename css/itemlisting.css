@@ -1,0 +1,34 @@
+#content.building_listing, #content.unit_listing{
+    padding: 0 45px;
+}
+#content h2.race{
+    font-size: 2em;
+    text-align: right;
+}
+.itemlisting > li{
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+.itemlisting > li > h2 > a{
+    font-size: 25px;
+}
+.itemlisting > li{
+    width: 250px;
+}
+.itemlisting li.terran, .itemlisting li.left{
+    text-align: right;
+}
+.itemlisting li.protoss, .itemlisting li.middle{
+    text-align: center;
+}
+.itemlisting li.zerg, .itemlisting li.right{
+    text-align: left;
+}
+.itemlisting li ul a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.itemlisting li.editable a{
+    color: #5a5;
+}

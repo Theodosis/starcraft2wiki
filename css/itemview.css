@@ -1,0 +1,39 @@
+.itemview h2{
+    border-bottom: 1px solid white;
+}
+.itemview .side{
+    float: right;
+    width: 230px;
+    margin-left: 20px;
+}
+.itemview img{
+    margin-top: 5px;
+    width: 230px;
+}
+.itemview .panel.details{
+    margin-top: 20px;
+}
+
+.itemview .main{
+    width: 590px;
+}
+
+.itemview p{
+    text-align: justify;
+    font-size: 14px;
+}
+.itemview h3{
+    border-bottom: 1px solid rgba(255,255,255,0.7);
+    padding-top: 15px;
+    clear: left;
+}
+.itemview ul.imagelist li img{
+    float: left;
+    margin: 4px;
+    width: 139px;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.itemview ul.imagelist li img:hover{
+    -webkit-transform: scale(1.1);
+    box-shadow: 0 0 10px 4px black;
+}

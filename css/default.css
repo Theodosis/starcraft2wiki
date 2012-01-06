@@ -1,0 +1,73 @@
+@font-face{
+    font-family: starcraft;
+    src: url(../fonts/starcraft.ttf);
+}
+
+body{
+    background: url(http://images1.wikia.nocookie.net/__cb7/starcraft/images/5/50/Wiki-background);
+    font-family: Trebuchet, 'Trebuchet MS', Calibri, Tahoma, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #77a;
+}
+a:hover{
+    text-shadow: 0 0 0.6em rgba(200,200,200,0.8);
+}
+*{
+    outline: none;
+}
+h1, h2, h3{
+    font-family: starcraft;
+}
+.eof{
+    clear: both;
+}
+#container{
+    background: rgba(0,0,0,0.8);
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    width: 900px;
+    margin: auto;
+    padding: 10px 0;
+    color: white;
+}
+h1 a{
+    color: transparent;
+    font-size: 0;
+    background: url(http://aliens.humlak.cz/aliens/aliens_papirove_modely/bonus_models/starcraft2/starcraft2logo.gif) no-repeat 0 0;
+    width: 389px;
+    height: 137px;
+    margin: auto;
+    display: block;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.button{
+    padding: 6px 30px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 0 1px rgba(255,255,255,0.4);
+    cursor: pointer;
+    background-image: -webkit-linear-gradient( top, rgba(0,0,0,0.2), rgba(0,0,0,0.6) );
+}
+.button:hover{
+    background-image: -webkit-linear-gradient( top, rgba(0,0,0,0), rgba(0,0,0,0.8) );
+}
+.button:active{
+    background-image: -webkit-linear-gradient( bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6) );
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.button.green{
+    background-color: #282;
+    color: #000;
+}

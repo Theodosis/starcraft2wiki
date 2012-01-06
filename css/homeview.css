@@ -1,0 +1,33 @@
+#content.home_view{ /* overrides a #content rule */
+    padding: 50px 0;
+}
+.home_view li{
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+.home_view ul li a{
+    text-decoration: none;
+    display: block;
+    background: url(../images/races.png) no-repeat 0 0;
+    width: 300px;
+    height: 360px;
+}
+.home_view ul li.terran a{
+    background-position: 0 30px;
+}
+.home_view ul li.terran:hover a{
+    background-position: 0 -361px;
+}
+.home_view ul li.protoss a{
+    background-position: -320px 30px;
+}
+.home_view ul li.protoss:hover a{
+    background-position: -320px -381px;
+}
+.home_view ul li.zerg a{
+    background-position: -630px 30px;
+}
+.home_view ul li.zerg:hover a{
+    background-position: -630px -361px;
+}
