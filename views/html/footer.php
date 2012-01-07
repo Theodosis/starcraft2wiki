@@ -1,7 +1,7 @@
             </div>
             <div id="footer">
                 <div>
-                    This wiki was creatd for the Databases class of Aristotle University of Thessaloniki.
+                    This wiki was created for the Databases class of Aristotle University of Thessaloniki.
                 </div>
                 <div>
                     <a href="">Θάλλας Αριστείδης</a>, 
