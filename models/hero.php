@@ -28,13 +28,13 @@
         public static function ListByRaceId( $id ){
             switch( $id ){
                 case 1:
-                    $table = "terranAddon";
+                    $table = "terranHero";
                     break;
                 case 2:
-                    $table = "protossAddon";
+                    $table = "protossHero";
                     break;
                 case 3:
-                    $table = "zergAddon";
+                    $table = "zergHero";
                     break;
             }
             return db_array( "SELECT * FROM $table;" );
